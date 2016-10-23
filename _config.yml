@@ -7,6 +7,7 @@ keywords: "computational neuroscience, NEST, network dynamics, recurrent network
 #baseurl: "/blog"
 # baseurl: null
 
+<<<<<<< HEAD
 # navbar pages
 navbar:
   - slug : /about
@@ -38,6 +39,11 @@ twitter_site: "@nandomoreirame"
 google_analytics: 
 repo: https://github.com/ErbB4/blog
 disqus_shortname: "neuron-sketch"
+=======
+google_analytics: UA-52446115-1
+repo: http://github.com/nandomoreirame/simplest
+disqus_shortname: "nandothemes"
+>>>>>>> 867ffde56522ca44c8ab33974ec96ac9efe88dff
 
 # Build settings
 permalink   : /:title/
