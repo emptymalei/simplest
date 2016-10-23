@@ -1,0 +1,21 @@
+---
+layout: default
+title: Archive
+---
+
+<section class="post-list">
+  <div class="container">
+
+    <h2>All Posts</h2>
+
+    {% for post in site.posts %}
+      <article class="post-item">
+        <p><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>  — <strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong> </p>
+      </article>
+    {% endfor %}
+  </div>
+
+  <div class="container">
+    {% include pagination.html %}
+  </div>
+</section>
